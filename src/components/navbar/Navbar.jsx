@@ -1,4 +1,4 @@
-import { Notifications, Search } from "@material-ui/icons";
+import { ArrowDropDown, Notifications, Search } from "@material-ui/icons";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -20,6 +20,11 @@ const Navbar = () => {
           <Search />
           <span>Search</span>
           <Notifications />
+          <img
+            src="https://images.pexels.com/photos/6899268/pexels-photo-6899268.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt=""
+          />
+          <ArrowDropDown />
         </div>
       </div>
     </div>
