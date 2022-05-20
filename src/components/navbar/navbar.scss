@@ -29,12 +29,31 @@
         .right{
             display: flex;
             align-items: center;
+
+            .icon{
+                margin: 0px 20px;
+                cursor: pointer;
+            }
+
             img{
                 height: 30px;
                 width: 30px;
                 border-radius: 5px;
                 object-fit: cover;
                 cursor: pointer;
+            }
+
+            .profile{
+                .options{
+                    display: none;
+                }
+
+                &:hover{
+                    .options{
+                        display: flex;
+                        flex-direction: column;
+                    }// 20:55
+                }
             }
         }
     }

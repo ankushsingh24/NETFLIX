@@ -17,18 +17,24 @@ const Navbar = () => {
           <span>My List</span>
         </div>
         <div className="right">
-          <Search />
+          <Search className="icon" />
           <span>Search</span>
-          <Notifications />
+          <Notifications className="icon" />
           <img
             src="https://images.pexels.com/photos/6899268/pexels-photo-6899268.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             alt=""
           />
-          <ArrowDropDown />
+          <div className="profile">
+            <ArrowDropDown className="icon" />
+            <div className="options">
+              <span>Settings</span>
+              <span>Log Out</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Navbar; // 18:30
